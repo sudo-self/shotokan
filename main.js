@@ -79,8 +79,8 @@ const loadModel = (path, scale, position) => {
     );
 };
 
-loadModel("/model.glb", 0.8, [0, -4, -2]);
-loadModel("/shotokan.glb", 0.03, [12, -9, 11]);
+loadModel("/public/model.glb", 0.8, [0, -4, -2]);
+loadModel("/public/shotokan.glb", 0.03, [12, -9, 11]);
 
 const textureLoader = new THREE.TextureLoader();
 const groundTexture = textureLoader.load("/ground.jpg", (texture) => {
